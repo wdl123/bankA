@@ -15,6 +15,7 @@
 		5A51064F1E7FA712005596F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A51064D1E7FA712005596F0 /* LaunchScreen.storyboard */; };
 		5A51065A1E7FA712005596F0 /* bankAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5106591E7FA712005596F0 /* bankAppTests.m */; };
 		5A5106651E7FA712005596F0 /* bankAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5106641E7FA712005596F0 /* bankAppUITests.m */; };
+		5A5106741E7FA7E3005596F0 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5106731E7FA7E3005596F0 /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		5A5106601E7FA712005596F0 /* bankAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bankAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A5106641E7FA712005596F0 /* bankAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bankAppUITests.m; sourceTree = "<group>"; };
 		5A5106661E7FA712005596F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A5106721E7FA7E3005596F0 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		5A5106731E7FA7E3005596F0 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				5A51064D1E7FA712005596F0 /* LaunchScreen.storyboard */,
 				5A5106501E7FA712005596F0 /* Info.plist */,
 				5A51063F1E7FA712005596F0 /* Supporting Files */,
+				5A5106721E7FA7E3005596F0 /* WebViewController.h */,
+				5A5106731E7FA7E3005596F0 /* WebViewController.m */,
 			);
 			path = bankApp;
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 				5A5106471E7FA712005596F0 /* ViewController.m in Sources */,
 				5A5106441E7FA712005596F0 /* AppDelegate.m in Sources */,
 				5A5106411E7FA712005596F0 /* main.m in Sources */,
+				5A5106741E7FA7E3005596F0 /* WebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

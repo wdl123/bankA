@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *urlTF;
+@property (weak, nonatomic) IBOutlet UIButton *goBTN;
 
 @end
 

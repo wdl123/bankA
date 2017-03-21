@@ -7,9 +7,9 @@
 //
 
 #import "ViewController.h"
-
+#import "WebViewController.h"
 @interface ViewController ()
-
+@property (weak,nonatomic) NSString *url;
 @end
 
 @implementation ViewController
@@ -23,6 +23,12 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)goClick:(id)sender {
+   
+    WebViewController *wv = [[WebViewController alloc] init];
+    wv.url= [_urlTF text];
+    [self presentModalViewController:wv animated:false];
 }
 
 
